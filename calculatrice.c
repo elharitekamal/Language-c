@@ -14,7 +14,7 @@ int main(){
     scanf(" %c", &oper);
     switch(oper){
     case'+': printf("x + y = %d\n", x+y);break;
-    case'-': printf("x - y = %d\n", x-y);break;
+    case'-': case'u' : printf("x - y = %d\n", x-y);break;
     case'*': printf("x * y = %d\n", x*y);break;
     case'/': printf("x / y = %d\n", x/y);break;
     default: printf("error");break;
